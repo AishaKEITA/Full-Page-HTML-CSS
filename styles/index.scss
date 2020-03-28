@@ -11,13 +11,11 @@
     }
 
     @media screen and (max-width: 800px) {
-        ::placeholder { display: flex;
+        .header__form { display: flex;
             justify-content: center;
+            align-content: center;
         }
         
-        // .navlist-right {
-        //   float: none;
-        // }
         }
     
 

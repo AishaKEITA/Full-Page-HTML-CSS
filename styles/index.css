@@ -10,9 +10,10 @@
   }
 }
 @media screen and (max-width: 800px) {
-  ::placeholder {
+  .header__form {
     display: flex;
     justify-content: center;
+    align-content: center;
   }
 }
 body {
