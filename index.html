@@ -22,8 +22,8 @@
                 Safe Travel Anywhere
             </p>
 
-            <form class="header__form" action="/action_page.php">
-                <input type="text" placeholder="Search Your Travel Destination" name="search">
+            <form class="header__form">
+                <input type="text" placeholder="Search Your Travel Destination" name="search" required>
                 <button type="submit"> SEARCH<i class="fa fa-search"></i></button>
             </form>
             <div>
@@ -38,52 +38,68 @@
 
     <section class="sectionone">
         <div class="navlist">
-            <a href="#default" class="logo">Bhromaon</a>
+            <a href="#" class="logo">Bhromaon</a>
             <div class="navlist-right">
                 <a class="active" href="#home">Who We Are</a>
-                <a href="#contact">What We Do</a>
-                <a href="#about">Travel With Us</a>
-                <a href="#about"> Contact Us</a>
+                <a href="#">What We Do</a>
+                <a href="#">Travel With Us</a>
+                <a href="#"> Contact Us</a>
             </div>
         </div>
     </section>
 
 
     <section class="sectiontwo">
-        <h2 class="section__heading">Why Choose Us</h2>
-        <p class="sectiontwo__content">Tion and dislike men who are so beguiled and demoralized by desire by the
-            charmsof pleasure of the moment, so blinded by desire, that they cannot foresee   Ddislike men who are so
-            beguiled
-            and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
-        <button class="sectiontwo__button"> Explor Places</button>
+        <div class="sectiontwo__contentwrap">
+            <div class="sectiontwo__contentwrap2">
+                <h2 class="section__heading">Why Choose Us</h2>
+                <p class="sectiontwo__content">Tion and dislike men who are so beguiled and demoralized by desire by the
+                    charmsof pleasure of the moment, so blinded by desire, that they cannot foresee   Ddislike men who
+                    are so
+                    beguiled
+                    and demoralized by the charms of pleasure of the moment, so blinded by desire, that.</p>
 
-        <div class="sectionimage__one">
-            <img src="images/sec2image1.png" alt="place">
+                <div> <button class="sectiontwo__button"> Explor Places</button></div>
+
+            </div>
+
+            <div class="sectiontwo__imagewrap">
+                <div class="sectionimage__one">
+                    <img src="images/sec2image1.png" alt="place">
+                </div>
+
+                <div class="section__imagetwo">
+                    <img src="images/sect2image2.png" alt="place">
+                </div>
+
+            </div>
         </div>
 
-        <div class="section__imagetwo">
-            <img src="images/sect2image2.png" alt="place">
-        </div>
-
+        <!-- <div class="imageshape">
+            <img src="images/shape.png" alt=>
+       </div>  -->
         <div class="services">
-            <div class="service__icon1"> <i class="fa fa-search"></i> </div>
 
-            <div class="service__one">
-                SELECT PLACES
+            <div>
+                <div class="service__icon1"> <i class="fas fa-search"></i></div>
+                <h2 class="service__one">
+                    SEARCH PLACES
+                </h2>
             </div>
 
-            <div class="service__icon2"> <i class="fas fa-check"></i></div>
-
-            <div class="service__two">
-                SELECT PLACES
+            <div>
+                <div class="service__icon2"> <i class="fas fa-check"></i></div>
+                <h2 class="service__two">
+                    SELECT PLACES
+                </h2>
             </div>
 
-            <div class="service__icon3"> <i class="far fa-thumbs-up"></i></div>
-
-            <div class="service__three">
-                BOOK AND ENJOY
+            <div>
+                <div class="service__icon3"> <i class="far fa-thumbs-up"></i></div>
+                <h2 class="service__three">
+                    BOOK AND ENJOY
+                </h2>
             </div>
-
         </div>
     </section>
 
@@ -103,14 +119,14 @@
     </section>
 
     <section class="sectionfour">
-        <div class="section__fourewrap">
-            <h2 class="section4__headingone">Spain</h2>
-            <h2 class="section4__headingtwo">Grand Spain Madrid</h2>
-            <p class="section4__content">
+        <div class="section__fourwrap">
+            <div class="section4__headingone">Spain</div>
+            <div class="section4__headingtwo">Grand Spain Madrid</div>
+            <div class="section4__content">
                 But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain
                 was account born and I account will give you a complete account of the system
-            </p>
-            <button class="section_fourbtn">BOOK NOW</button>
+            </div>
+            <button class="section__fourbtn">BOOK NOW</button>
         </div>
 
     </section>
@@ -119,34 +135,39 @@
         <h3 class="sectionfive__heading">
             What Our Tourist Say
         </h3>
+        <h3 class="name">Sam Sumon</h3>
 
         <div class="sectionwrap">
+
             <div class="sectionfive__image">
                 <img src="images/section5image.png" alt="man">
             </div>
 
-            <h3 class="name">Sam Sumon</h3>
-            <p class="section__fivecontent"> "But I must explain to you how all this mistaken idea of account to
-                denouncinpleasure and praising pain But I must explain to you how all this mistaken idea of account to
-                nai denouncing pleasure and praising pain was account born and I account will give you a complete
-                account of the system was account born and I account will give you a nai the complete account of the
-                system</p>
+            <div class="section__fivecontent">
+
+                <p class="quote">
+                    <i class="fas fa-quote-left"></i>
+                    But I must explain to you how all this mistaken idea of account to
+                    denouncinpleasure and praising pain But I must explain to you how all this mistaken idea of account
+                    to
+                    nai denouncing pleasure and praising pain was account born and I account will give you a complete
+                    account of the system was account born and I account will give you a nai the complete account of the
+                    system.
+                </p>
+            </div>
         </div>
     </section>
 
     <footer>
-        <div class="footermain4wrap">
-            <p class="footer__text1"> Bhromaon</p>
-            <p class="footer_text2">Safe Travel Anywhere</p>
-            <div class="footer__socialmedia">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter-square"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-linkedin-in"></i>
-                <i class="fab fa-youtube"></i>
-                <i class="fab fa-pinterest"></i>
-            </div>
-
+        <p class="footer__text1"> Bhromaon</p>
+        <p class="footer_text2">Safe Travel Anywhere</p>
+        <div class="footer__socialmedia">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-pinterest"></i>
         </div>
     </footer>
 
